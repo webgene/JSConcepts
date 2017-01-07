@@ -1,4 +1,7 @@
 
+/*****************Example-1**********************/
+
+//http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/
 
 var user = {
     data: [
@@ -11,5 +14,5 @@ var user = {
     }
 }
 
-document.getElementsByTagName("button")[0].onclick = user.clickHandler.bind(user);
-//document.getElementById("btn").onclick = user.clickHandler;
+// document.getElementsByTagName("button")[0].onclick = user.clickHandler.bind(user);
+//document.getElementById("btn").onclick = user.clickHandler.bind(user);
